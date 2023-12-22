@@ -6,7 +6,14 @@ public class Userinput {
         Scanner r=new Scanner(System.in);
         System.out.println("Enter tye size of an array");
         int []a=new int[r.nextInt()];
-        
+        for(int i=0;i<a.length;i++){
+            System.out.println("Enter the element");
+            a[i]=r.nextInt();
+        }
+        for(int b:a){
+            System.out.println(b);
+        }
+
     }
     
 }
