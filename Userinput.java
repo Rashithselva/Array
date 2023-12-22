@@ -10,6 +10,7 @@ public class Userinput {
             System.out.println("Enter the element");
             a[i]=r.nextInt();
         }
+        System.out.println("****************************");
         for(int b:a){
             System.out.println(b);
         }
